@@ -9,5 +9,7 @@ public class functional_interface{
         System.out.println(demo.calculate(10, 30));
         demo=(a,b)->{return a-b;};
         System.out.println(demo.calculate(10, 30));
+        demo=(a,b)->{return a/b;};
+        System.out.println(demo.calculate(10, 30));
     }
 }
